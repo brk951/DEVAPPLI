@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataStats</string>
+    <string name="n_a">N/A</string>
+    <string name="title_activity_data_stat_widget_configure">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mobile_internet_limit_summary">Set data usage limit for mobile internet</string>
+    <string name="wifi_internet_limit_summary">Set data usage limit for wifi</string>
+    <string name="mobile_data_usage_limit_title">Mobile data usage limit (MB)</string>
+    <string name="wifi_data_usage_limit_title">Wifi data usage limit (MB)</string>
+    <string name="update_frequency_title">Update frequency</string>
+    <string name="update_freq_key">update_freq</string>
+    <string name="update_freq_summary">1 hour</string>
+    <string name="mobile_limit_key">mobile_limit</string>
+    <string name="wifi_limit_key">wifi_limit</string>
+    <string name="allow_notification_title">Allow notification</string>
+    <string name="allow_notification_key">allow_notification</string>
+    <string name="allow_notification_summary">Notification before you reach the limit</string>
+    <string name="auto_disable_internet_title">Auto-disable internet</string>
+    <string name="disable_internet_key">disable_internet</string>
+    <string name="auto_disable_internet_summary">Automatically turns internet off before reaching the limit</string>
+
+</resources>

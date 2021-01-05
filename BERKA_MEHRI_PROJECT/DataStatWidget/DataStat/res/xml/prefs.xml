@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference 
+        android:title="@string/update_frequency_title"
+        android:key="@string/update_freq_key"
+        android:summary="@string/update_freq_summary"
+        android:entries="@array/list"
+        android:entryValues="@array/values"
+        android:defaultValue="60"/>
+    
+	<EditTextPreference 
+	    android:inputType="number"
+	    android:title="@string/mobile_data_usage_limit_title"
+	    android:key="@string/mobile_limit_key"
+	    android:summary="@string/mobile_internet_limit_summary"
+	   />
+	
+	<EditTextPreference 
+	    android:inputType="number"
+	    android:title="@string/wifi_data_usage_limit_title"
+	    android:key="@string/wifi_limit_key"
+	    android:summary="@string/wifi_internet_limit_summary"
+	   />
+	<CheckBoxPreference 
+	    android:title="@string/allow_notification_title"
+	    android:key="@string/allow_notification_key"
+	    android:summary="@string/allow_notification_summary"/>
+	
+	<CheckBoxPreference 
+	    android:title="@string/auto_disable_internet_title"
+	    android:key="@string/disable_internet_key"
+	    android:summary="@string/auto_disable_internet_summary"/>
+</PreferenceScreen>

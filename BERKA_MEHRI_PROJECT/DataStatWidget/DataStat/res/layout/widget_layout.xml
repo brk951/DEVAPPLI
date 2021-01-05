@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    android:background="@drawable/ninepatch_background"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="1"
+            android:src="@drawable/ic_action_network_wifi" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="1"
+            android:src="@drawable/ic_action_network_cell" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/tv_download_wifi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n_a"
+                android:textColor="@android:color/black"
+                android:textSize="11sp"
+                android:layout_marginLeft="3dp"
+                android:layout_margin="2dp" />
+            
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/tv_upload_wifi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n_a"
+                android:textColor="@android:color/black"
+                android:textSize="11sp"
+                
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+            
+             <TextView
+                android:layout_gravity="center"
+                android:id="@+id/tv_download_mobile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n_a"
+                android:textColor="@android:color/black"
+                android:textSize="11sp"
+                android:layout_marginLeft="3dp"
+                android:layout_margin="2dp" />
+            
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/tv_upload_mobile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n_a"
+                android:textColor="@android:color/black"
+                android:textSize="11sp"
+                />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
